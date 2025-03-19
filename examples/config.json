@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "debug": false,
+    "log_level": "INFO",
+    "timeout": 30
+  },
+  "api": {
+    "url": "https://api.example.com",
+    "key": "YOUR_API_KEY_HERE"
+  },
+  "features": {
+    "feature1": true,
+    "feature2": false,
+    "feature3": {
+      "enabled": true,
+      "options": ["option1", "option2"]
+    }
+  }
+}

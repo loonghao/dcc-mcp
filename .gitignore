@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# nox
+.nox/
+
+# Poetry
+poetry.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
