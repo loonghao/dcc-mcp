@@ -13,7 +13,7 @@
 
 </div>
 
-DCC-MCP is a Model-Context-Protocol implementation for Digital Content Creation tools, providing a unified interface for various DCC applications used in the VFX and animation industry.
+DCC-MCP is a unified implementation of the Model-Context-Protocol (MCP) for Digital Content Creation (DCC) software, designed to provide a consistent interface for various DCC applications used in the VFX and animation industry.
 
 > **Note:** Frontend API is currently under development. Stay tuned for updates!
 >
@@ -21,10 +21,10 @@ DCC-MCP is a Model-Context-Protocol implementation for Digital Content Creation 
 
 ## Features
 
-- Unified Model-Context-Protocol architecture for DCC tools
-- Consistent API across different software (Maya, Houdini, Nuke, etc.)
+- Standardized implementation of MCP for DCC applications
+- Consistent API across different DCC software (Maya, Houdini, Nuke, etc.)
 - Cross-platform compatibility (Windows, Linux, macOS)
-- Extensible plugin system
+- Extensible architecture for custom integrations
 
 ## Installation
 
