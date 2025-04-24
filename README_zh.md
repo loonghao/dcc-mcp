@@ -1,44 +1,49 @@
-# 项目名称
+# DCC-MCP
 
 <div align="center">
 
-[![PyPI version](https://badge.fury.io/py/your-project-name.svg)](https://badge.fury.io/py/your-project-name)
-[![Build Status](https://github.com/username/your-project-name/workflows/Build%20and%20Release/badge.svg)](https://github.com/username/your-project-name/actions)
-[![Documentation Status](https://readthedocs.org/projects/your-project-name/badge/?version=latest)](https://your-project-name.readthedocs.io/en/latest/?badge=latest)
-[![Python Version](https://img.shields.io/pypi/pyversions/your-project-name.svg)](https://pypi.org/project/your-project-name/)
-[![License](https://img.shields.io/github/license/username/your-project-name.svg)](https://github.com/username/your-project-name/blob/main/LICENSE)
-[![Downloads](https://static.pepy.tech/badge/your-project-name)](https://pepy.tech/project/your-project-name)
+[![PyPI version](https://badge.fury.io/py/dcc-mcp.svg)](https://badge.fury.io/py/dcc-mcp)
+[![Build Status](https://github.com/loonghao/dcc-mcp/workflows/Build%20and%20Release/badge.svg)](https://github.com/loonghao/dcc-mcp/actions)
+[![Documentation Status](https://readthedocs.org/projects/dcc-mcp/badge/?version=latest)](https://dcc-mcp.readthedocs.io/en/latest/?badge=latest)
+[![Python Version](https://img.shields.io/pypi/pyversions/dcc-mcp.svg)](https://pypi.org/project/dcc-mcp/)
+[![License](https://img.shields.io/github/license/loonghao/dcc-mcp.svg)](https://github.com/loonghao/dcc-mcp/blob/main/LICENSE)
+[![Downloads](https://static.pepy.tech/badge/dcc-mcp)](https://pepy.tech/project/dcc-mcp)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Ruff](https://img.shields.io/badge/ruff-enabled-brightgreen)](https://github.com/astral-sh/ruff)
 
 </div>
 
-项目描述
+DCC-MCP 是一个为数字内容创作工具实现的模型-上下文-协议框架，为VFX和动画行业中各种DCC应用程序提供统一接口。
+
+> **注意：** 前置API目前正在开发中，敬请期待！
+>
+> 相关组件 (dcc-mcp-core, dcc-mcp-maya, dcc-mcp-rpyc) 也正在积极开发中。
 
 ## 特性
 
-- 特性 1
-- 特性 2
-- 特性 3
+- 统一的模型-上下文-协议架构，适用于各种DCC工具
+- 跨软件的一致性API（Maya、Houdini、Nuke等）
+- 跨平台兼容性（Windows、Linux、macOS）
+- 可扩展的插件系统
 
 ## 安装
 
 ```bash
-pip install your-project-name
+pip install dcc-mcp
 ```
 
 或者使用 Poetry:
 
 ```bash
-poetry add your-project-name
+poetry add dcc-mcp
 ```
 
 ## 使用方法
 
 ```python
-import your_project_name
+import dcc_mcp
 
-# 在此添加使用示例
+# API最终确定后将提供使用示例
 ```
 
 ## 开发
@@ -47,8 +52,8 @@ import your_project_name
 
 ```bash
 # 克隆仓库
-git clone https://github.com/username/your-project-name.git
-cd your-project-name
+git clone https://github.com/loonghao/dcc-mcp.git
+cd dcc-mcp
 
 # 使用 Poetry 安装依赖
 poetry install
@@ -83,7 +88,7 @@ MIT
 
 ## GitHub Actions 配置
 
-此模板使用 GitHub Actions 进行 CI/CD。包含以下工作流：
+本项目使用 GitHub Actions 进行 CI/CD。包含以下工作流：
 
 - **构建和发布**：在多个 Python 版本和操作系统上测试包，并在创建新版本时发布到 PyPI。
 - **文档**：构建文档并部署到 GitHub Pages。

@@ -1,44 +1,49 @@
-# Your Project Name
+# DCC-MCP
 
 <div align="center">
 
-[![PyPI version](https://badge.fury.io/py/your-project-name.svg)](https://badge.fury.io/py/your-project-name)
-[![Build Status](https://github.com/username/your-project-name/workflows/Build%20and%20Release/badge.svg)](https://github.com/username/your-project-name/actions)
-[![Documentation Status](https://readthedocs.org/projects/your-project-name/badge/?version=latest)](https://your-project-name.readthedocs.io/en/latest/?badge=latest)
-[![Python Version](https://img.shields.io/pypi/pyversions/your-project-name.svg)](https://pypi.org/project/your-project-name/)
-[![License](https://img.shields.io/github/license/username/your-project-name.svg)](https://github.com/username/your-project-name/blob/main/LICENSE)
-[![Downloads](https://static.pepy.tech/badge/your-project-name)](https://pepy.tech/project/your-project-name)
+[![PyPI version](https://badge.fury.io/py/dcc-mcp.svg)](https://badge.fury.io/py/dcc-mcp)
+[![Build Status](https://github.com/loonghao/dcc-mcp/workflows/Build%20and%20Release/badge.svg)](https://github.com/loonghao/dcc-mcp/actions)
+[![Documentation Status](https://readthedocs.org/projects/dcc-mcp/badge/?version=latest)](https://dcc-mcp.readthedocs.io/en/latest/?badge=latest)
+[![Python Version](https://img.shields.io/pypi/pyversions/dcc-mcp.svg)](https://pypi.org/project/dcc-mcp/)
+[![License](https://img.shields.io/github/license/loonghao/dcc-mcp.svg)](https://github.com/loonghao/dcc-mcp/blob/main/LICENSE)
+[![Downloads](https://static.pepy.tech/badge/dcc-mcp)](https://pepy.tech/project/dcc-mcp)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Ruff](https://img.shields.io/badge/ruff-enabled-brightgreen)](https://github.com/astral-sh/ruff)
 
 </div>
 
-Your project description
+DCC-MCP is a Model-Context-Protocol implementation for Digital Content Creation tools, providing a unified interface for various DCC applications used in the VFX and animation industry.
+
+> **Note:** Frontend API is currently under development. Stay tuned for updates!
+>
+> Related components (dcc-mcp-core, dcc-mcp-maya, dcc-mcp-rpyc) are also under active development.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Unified Model-Context-Protocol architecture for DCC tools
+- Consistent API across different software (Maya, Houdini, Nuke, etc.)
+- Cross-platform compatibility (Windows, Linux, macOS)
+- Extensible plugin system
 
 ## Installation
 
 ```bash
-pip install your-project-name
+pip install dcc-mcp
 ```
 
 Or with Poetry:
 
 ```bash
-poetry add your-project-name
+poetry add dcc-mcp
 ```
 
 ## Usage
 
 ```python
-import your_project_name
+import dcc_mcp
 
-# Add usage examples here
+# Example usage will be available once the API is finalized
 ```
 
 ## Development
@@ -47,8 +52,8 @@ import your_project_name
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-project-name.git
-cd your-project-name
+git clone https://github.com/loonghao/dcc-mcp.git
+cd dcc-mcp
 
 # Install dependencies with Poetry
 poetry install
@@ -83,7 +88,7 @@ MIT
 
 ## GitHub Actions Configuration
 
-This template uses GitHub Actions for CI/CD. The following workflows are included:
+This project uses GitHub Actions for CI/CD. The following workflows are included:
 
 - **Build and Release**: Tests the package on multiple Python versions and operating systems, and publishes to PyPI when a new release is created.
 - **Documentation**: Builds and deploys documentation to GitHub Pages.
