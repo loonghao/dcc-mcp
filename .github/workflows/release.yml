@@ -87,7 +87,7 @@ jobs:
         python-version: ['3.7', '3.9', '3.11']
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -136,7 +136,7 @@ jobs:
       id-token: write
     
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       
