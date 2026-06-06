@@ -116,3 +116,7 @@ git push && git push --tags
 ```
 
 The GitHub Actions workflow will automatically build and publish the package to PyPI.
+
+## Download History
+
+[![Download History](https://skill-history.com/chart/loonghao/dcc-mcp-creator.svg)](https://skill-history.com/loonghao/dcc-mcp-creator)
