@@ -33,13 +33,6 @@ DCC-MCP 是基于模型-上下文-协议(MCP)在数字内容创作(DCC)软件中
 >
 > 相关组件 (dcc-mcp-core, dcc-mcp-maya, dcc-mcp-rpyc) 也正在积极开发中。
 
-## 特性
-
-- 针对DCC应用程序的MCP标准化实现
-- 跨不同DCC软件的一致性API（Maya、Houdini、Nuke等）
-- 跨平台兼容性（Windows、Linux、macOS）
-- 可扩展的架构，支持自定义集成
-
 ## 安装
 
 ```bash

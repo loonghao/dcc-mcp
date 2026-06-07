@@ -33,13 +33,6 @@ DCC-MCP is a unified implementation of the Model-Context-Protocol (MCP) for Digi
 >
 > Related components (dcc-mcp-core, dcc-mcp-maya, dcc-mcp-rpyc) are also under active development.
 
-## Features
-
-- Standardized implementation of MCP for DCC applications
-- Consistent API across different DCC software (Maya, Houdini, Nuke, etc.)
-- Cross-platform compatibility (Windows, Linux, macOS)
-- Extensible architecture for custom integrations
-
 ## Installation
 
 ```bash
