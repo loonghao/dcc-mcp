@@ -3,14 +3,18 @@
 # Import built-in modules
 from unittest import mock
 
+# Import third-party modules
+import pytest
+
 # Import local modules
 from your_project_name.cli import main
 
 
 def test_main_returns_zero():
-    """Test that the main function returns zero."""
-    result = main(["--help"])
-    assert result == 0
+    """Test that the main function exits cleanly with --help."""
+    with pytest.raises(SystemExit) as exc_info:
+        main(["--help"])
+    assert exc_info.value.code == 0
 
 
 def test_version_flag():
